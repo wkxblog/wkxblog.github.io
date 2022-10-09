@@ -1,23 +1,289 @@
-{% extends '_layout.swig' %}
-{% import '_macro/post.swig' as post_template %}
-{% import '_macro/sidebar.swig' as sidebar_template %}
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+  
+  <title>wkxblog</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="记录一些学习">
+<meta property="og:type" content="website">
+<meta property="og:title" content="wkxblog">
+<meta property="og:url" content="https://wkxblog.github.io/index.html">
+<meta property="og:site_name" content="wkxblog">
+<meta property="og:description" content="记录一些学习">
+<meta property="og:locale">
+<meta property="article:author" content="wkx">
+<meta name="twitter:card" content="summary">
+  
+    <link rel="alternate" href="/atom.xml" title="wkxblog" type="application/atom+xml">
+  
+  
+    <link rel="shortcut icon" href="/favicon.png">
+  
+  
+    
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/typeface-source-code-pro@0.0.71/index.min.css">
 
-{% block title %}{{ config.title }}{% if theme.index_with_subtitle and config.subtitle %} - {{config.subtitle }}{% endif %}{% endblock %}
+  
+  
+<link rel="stylesheet" href="/css/style.css">
 
-{% block page_class %}
-  {% if is_home() %}page-home{% endif -%}
-{% endblock %}
+  
+    
+<link rel="stylesheet" href="/fancybox/jquery.fancybox.min.css">
 
-{% block content %}
-  <section id="posts" class="posts-expand">
-    {% for post in page.posts %}
-      {{ post_template.render(post, true) }}
-    {% endfor %}
-  </section>
+  
+<meta name="generator" content="Hexo 6.3.0"></head>
 
-  {% include '_partials/pagination.swig' %}
-{% endblock %}
+<body>
+  <div id="container">
+    <div id="wrap">
+      <header id="header">
+  <div id="banner"></div>
+  <div id="header-outer" class="outer">
+    <div id="header-title" class="inner">
+      <h1 id="logo-wrap">
+        <a href="/" id="logo">wkxblog</a>
+      </h1>
+      
+        <h2 id="subtitle-wrap">
+          <a href="/" id="subtitle">wkxblog记录</a>
+        </h2>
+      
+    </div>
+    <div id="header-inner" class="inner">
+      <nav id="main-nav">
+        <a id="main-nav-toggle" class="nav-icon"></a>
+        
+          <a class="main-nav-link" href="/">Home</a>
+        
+          <a class="main-nav-link" href="/archives">Archives</a>
+        
+      </nav>
+      <nav id="sub-nav">
+        
+          <a id="nav-rss-link" class="nav-icon" href="/atom.xml" title="RSS Feed"></a>
+        
+        <a id="nav-search-btn" class="nav-icon" title="Suche"></a>
+      </nav>
+      <div id="search-form-wrap">
+        <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" class="search-form-input" placeholder="Suche"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="https://wkxblog.github.io"></form>
+      </div>
+    </div>
+  </div>
+</header>
 
-{% block sidebar %}
-  {{ sidebar_template.render(false) }}
-{% endblock %}
+      <div class="outer">
+        <section id="main">
+  
+    <article id="post-这是一个开始" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
+  <div class="article-meta">
+    <a href="/2022/10/08/%E8%BF%99%E6%98%AF%E4%B8%80%E4%B8%AA%E5%BC%80%E5%A7%8B/" class="article-date">
+  <time class="dt-published" datetime="2022-10-08T13:37:08.000Z" itemprop="datePublished">2022-10-08</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="p-name article-title" href="/2022/10/08/%E8%BF%99%E6%98%AF%E4%B8%80%E4%B8%AA%E5%BC%80%E5%A7%8B/">这是一个开始</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="e-content article-entry" itemprop="articleBody">
+      
+        <h1 id="嘻嘻嘻"><a href="#嘻嘻嘻" class="headerlink" title="嘻嘻嘻"></a>嘻嘻嘻</h1><img alt="label" src="/2022/10/08/%E8%BF%99%E6%98%AF%E4%B8%80%E4%B8%AA%E5%BC%80%E5%A7%8B/IMG_9812.JPG">
+
+<h1 id="一、markdown用法"><a href="#一、markdown用法" class="headerlink" title="一、markdown用法"></a>一、markdown用法</h1><h2 id="1-如何插入代码"><a href="#1-如何插入代码" class="headerlink" title="1 如何插入代码"></a>1 如何插入代码</h2><p>源码（图片）：<br><img alt="1" src="/2022/10/08/%E8%BF%99%E6%98%AF%E4%B8%80%E4%B8%AA%E5%BC%80%E5%A7%8B/代码用法1.png"><br>效果：</p>
+<figure class="highlight py"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">print</span>(<span class="string">&#x27;hello,world&#x27;</span>)</span><br></pre></td></tr></table></figure>
+<h2 id="2-如何插入图片示例"><a href="#2-如何插入图片示例" class="headerlink" title="2 如何插入图片示例"></a>2 如何插入图片示例</h2><img alt="1" src="/2022/10/08/%E8%BF%99%E6%98%AF%E4%B8%80%E4%B8%AA%E5%BC%80%E5%A7%8B/XYJW[JK20662IB$SL$E22UN.png">
+图片存放在文章同名文件夹下       
+
+<h2 id="3-如何加粗文字"><a href="#3-如何加粗文字" class="headerlink" title="3 如何加粗文字"></a>3 如何加粗文字</h2><p>在单词或短语的前后各添加两个星号<br>示例：<strong>hello world</strong><br><img src="/2022/10/08/%E8%BF%99%E6%98%AF%E4%B8%80%E4%B8%AA%E5%BC%80%E5%A7%8B/NVQRK{DY54@EPHMP4``[QQO.png"></p>
+<h2 id="4-斜体"><a href="#4-斜体" class="headerlink" title="4 斜体"></a>4 斜体</h2><p>在单词或短语的前后各添加一个星号<br>示例：<em>hello world</em></p>
+<h2 id="5-超连接"><a href="#5-超连接" class="headerlink" title="5 超连接"></a>5 超连接</h2><p>方块括号后面紧接着圆括号并插入网址链接即可。<br><a target="_blank" rel="noopener" href="https://www.baidu.com/">百度</a><br><a target="_blank" rel="noopener" href="https://zhuanlan.zhihu.com/p/99319314">markdown教程</a></p>
+<h1 id="二、hexo语法"><a href="#二、hexo语法" class="headerlink" title="二、hexo语法"></a>二、hexo语法</h1><h2 id="1-hexo-d"><a href="#1-hexo-d" class="headerlink" title="1 hexo d"></a>1 hexo d</h2><p>将网站部署到服务器上</p>
+<h2 id="2-hexo-new-layout"><a href="#2-hexo-new-layout" class="headerlink" title="2 hexo new [layout] "></a>2 hexo new [layout] <title></title></h2><p>新建一篇标题为 <em>title</em> 的文章,可以添加文章布局（laout）。</p>
+<p>默认为post———其路径为source&#x2F;_posts</p>
+<pre><code> 布局：page----------source
+
+ 布局：draft----------source/_drafts
+</code></pre>
+<h2 id="3-hexo-g"><a href="#3-hexo-g" class="headerlink" title="3 hexo g"></a>3 hexo g</h2><p>生成网站静态文件到默认设置的 public 文件夹。</p>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="https://wkxblog.github.io/2022/10/08/%E8%BF%99%E6%98%AF%E4%B8%80%E4%B8%AA%E5%BC%80%E5%A7%8B/" data-id="cl91f1myy0003ngsogduoad3q" data-title="这是一个开始" class="article-share-link">Teilen</a>
+      
+      
+      
+  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/blog/" rel="tag">blog</a></li></ul>
+
+    </footer>
+  </div>
+  
+</article>
+
+
+
+  
+    <article id="post-hello-world" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
+  <div class="article-meta">
+    <a href="/2022/10/08/hello-world/" class="article-date">
+  <time class="dt-published" datetime="2022-10-08T05:34:16.654Z" itemprop="datePublished">2022-10-08</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="p-name article-title" href="/2022/10/08/hello-world/">Hello World</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="e-content article-entry" itemprop="articleBody">
+      
+        <p>Welcome to <a target="_blank" rel="noopener" href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a target="_blank" rel="noopener" href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a target="_blank" rel="noopener" href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a target="_blank" rel="noopener" href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
+
+<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/writing.html">Writing</a></p>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/server.html">Server</a></p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/generating.html">Generating</a></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="https://wkxblog.github.io/2022/10/08/hello-world/" data-id="cl91f1mys0001ngso84o0buwa" data-title="Hello World" class="article-share-link">Teilen</a>
+      
+      
+      
+    </footer>
+  </div>
+  
+</article>
+
+
+
+  
+
+
+</section>
+        
+          <aside id="sidebar">
+  
+    
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Tags</h3>
+    <div class="widget">
+      <ul class="tag-list" itemprop="keywords"><li class="tag-list-item"><a class="tag-list-link" href="/tags/blog/" rel="tag">blog</a></li></ul>
+    </div>
+  </div>
+
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Tag Cloud</h3>
+    <div class="widget tagcloud">
+      <a href="/tags/blog/" style="font-size: 10px;">blog</a>
+    </div>
+  </div>
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Archiv</h3>
+    <div class="widget">
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2022/10/">October 2022</a></li></ul>
+    </div>
+  </div>
+
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">letzter Beitrag</h3>
+    <div class="widget">
+      <ul>
+        
+          <li>
+            <a href="/2022/10/08/%E8%BF%99%E6%98%AF%E4%B8%80%E4%B8%AA%E5%BC%80%E5%A7%8B/">这是一个开始</a>
+          </li>
+        
+          <li>
+            <a href="/2022/10/08/hello-world/">Hello World</a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+
+  
+</aside>
+        
+      </div>
+      <footer id="footer">
+  
+  <div class="outer">
+    <div id="footer-info" class="inner">
+      
+      &copy; 2022 wkx<br>
+      Powered by <a href="https://hexo.io/" target="_blank">Hexo</a>
+    </div>
+  </div>
+</footer>
+
+    </div>
+    <nav id="mobile-nav">
+  
+    <a href="/" class="mobile-nav-link">Home</a>
+  
+    <a href="/archives" class="mobile-nav-link">Archives</a>
+  
+</nav>
+    
+
+
+<script src="/js/jquery-3.4.1.min.js"></script>
+
+
+
+  
+<script src="/fancybox/jquery.fancybox.min.js"></script>
+
+
+
+
+<script src="/js/script.js"></script>
+
+
+
+
+
+  </div>
+</body>
+</html>
